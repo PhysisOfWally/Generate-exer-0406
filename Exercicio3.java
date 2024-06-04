@@ -26,9 +26,9 @@ public class Exercicio3 {
 		System.out.println("Entre com o Desconto: ");
 		descontos = sc.nextFloat();
 		
-		novoSalario = (salario + adicionalNoturno + horasExtras) - descontos;
+		novoSalario = (salario + adicionalNoturno + (horasExtras * 5)) - descontos;
 		
-		System.out.println("O salário líquido é: " + novoSalario);
+		System.out.printf("O salário líquido é: %.2f", novoSalario);
 		 
 		sc.close();
 	}

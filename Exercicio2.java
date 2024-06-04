@@ -33,7 +33,7 @@ public class Exercicio2 {
 		//parte lógica
 		media = (n1 + n2 + n3 + n4) / 4;
 		
-		System.out.println("media das notas: " + media);
+		System.out.printf("media das notas: %.2f", media);
 		
 		 
 		sc.close();

@@ -28,7 +28,7 @@ public class Exercicio4 {
 		
 		dif = (n1 * n2) - (n3 * n4);
 		
-		System.out.println("A diferença: " + dif);
+		System.out.printf("A diferença: %.2f", dif);
 		
 		sc.close();
 	}

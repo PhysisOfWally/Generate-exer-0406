@@ -22,7 +22,7 @@ public class Exercicio1 {
 		
 		novoSalario = salario + abono;
 		
-		System.out.println("O novo salário é: " + novoSalario);
+		System.out.printf("O novo salário é: %.2f", novoSalario);
 		 
 		sc.close();
 	}
